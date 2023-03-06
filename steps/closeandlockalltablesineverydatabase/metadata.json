@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "closeandlockalltablesineverydatabase", 
+    "name": "Close and Lock All Tables in Every Database", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

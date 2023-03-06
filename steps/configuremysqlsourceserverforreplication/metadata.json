@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "configuremysqlsourceserverforreplication", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "configuremysqlsourceserverfirewall"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "configuringthesourcedatabase"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "createreplicationuser"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "retrievebinarylogcoordinates"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "createdatabase"
+        }
+    ], 
+    "name": "Configure MySQL Source Server for Replication", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,5 @@
+mysql <<EOM
+    CREATE DATABASE {databaseToReplicate};
+    
+    SHOW DATABASES;
+EOM

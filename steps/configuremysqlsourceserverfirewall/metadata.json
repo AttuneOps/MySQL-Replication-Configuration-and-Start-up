@@ -1,0 +1,14 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "configuremysqlsourceserverfirewall", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "firewallallowconnectionstosourceserverfromreplicaservers"
+        }
+    ], 
+    "name": "Configure MySQL Source Server Firewall", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

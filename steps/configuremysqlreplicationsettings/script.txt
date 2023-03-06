@@ -1,0 +1,20 @@
+# read -r -d '' replicationSettings <<- EOM
+#     CHANGE REPLICATION SOURCE TO
+#     SOURCE_HOST='{mysqlSourceNode.ip}',
+#     SOURCE_USER='{mysqlReplicaUser.user}',
+#     SOURCE_PASSWORD='{mysqlReplicaUser.password}',
+#     SOURCE_LOG_FILE='{mysqlSourceLogFile}',
+#     SOURCE_LOG_POS={mysqlSourceLogPosition};
+# EOM
+
+# mysql -e "$replicationSettings"
+
+
+mysql <<EOM
+    CHANGE REPLICATION SOURCE TO
+    SOURCE_HOST='{mysqlSourceNode.ip}',
+    SOURCE_USER='{mysqlReplicaUser.user}',
+    SOURCE_PASSWORD='{mysqlReplicaUser.password}',
+    SOURCE_LOG_FILE='{mysqlSourceLogFile}',
+    SOURCE_LOG_POS={mysqlSourceLogPosition};
+EOM

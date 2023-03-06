@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "verifytesttablereplication", 
+    "name": "Verify Test Table Replication", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlreplicanode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,14 @@
+mysql -v <<EOM
+    USE {databaseToReplicate};
+    
+    CREATE TABLE example_table (
+    example_column varchar(30)
+    );
+    
+    INSERT INTO example_table VALUES
+    ('This is the first row'),
+    ('This is the second row'),
+    ('This is the third row');
+    
+    SELECT * FROM example_table;
+EOM

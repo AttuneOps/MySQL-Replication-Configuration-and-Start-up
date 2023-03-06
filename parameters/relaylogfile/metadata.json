@@ -1,0 +1,6 @@
+{
+    "key": "relaylogfile", 
+    "name": "Relay Log File", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

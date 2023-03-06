@@ -1,0 +1,1 @@
+This defines the base name and location of MySQL's binary log file. Example: "/var/log/mysql/mysql-bin.log"

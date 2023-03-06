@@ -1,0 +1,1 @@
+The location of the replica’s relay log file. Example: "/var/log/mysql/mysql-relay-bin.log"

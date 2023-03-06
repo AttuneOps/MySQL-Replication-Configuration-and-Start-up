@@ -1,0 +1,4 @@
+for node in {mysqlReplicaServers.serverIps}
+do
+    ufw allow from $node to any port 3306
+done

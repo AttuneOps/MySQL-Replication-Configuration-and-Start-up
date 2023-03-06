@@ -1,0 +1,6 @@
+{
+    "key": "mysqlreplicaservers", 
+    "name": "MySQL Replica Servers", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.ServerList"
+}

@@ -1,0 +1,10 @@
+add="relay-log      = {relayLogFile}"
+conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
+
+if grep "$add" $conf
+then
+    echo "Relay Log already configured!"
+else
+    echo "$add" >> $conf
+    cat "$conf" | grep "$add"
+fi

@@ -1,0 +1,7 @@
+find=$(echo "# log_bin			= /var/log/mysql/mysql-bin.log" | sed 's/\//\\\//g')
+replace=$(echo "log_bin			= {binaryLogFile}" | sed 's/\//\\\//g')
+conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
+
+sed -i "s/$find/$replace/" $conf
+
+cat "$conf" | grep "$replace"

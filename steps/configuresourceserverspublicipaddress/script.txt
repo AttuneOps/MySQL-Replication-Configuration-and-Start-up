@@ -1,0 +1,7 @@
+find="bind-address		= 127.0.0.1"
+replace="bind-address		= {mysqlSourceNode.ip}"
+conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
+
+sed -i "s/$find/$replace/" $conf
+
+cat "$conf" | grep "$replace"

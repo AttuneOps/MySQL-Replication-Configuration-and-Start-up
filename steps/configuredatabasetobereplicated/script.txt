@@ -1,0 +1,7 @@
+find="# binlog_do_db		= include_database_name"
+replace="binlog_do_db		= {databaseToReplicate}"
+conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
+
+sed -i "s/$find/$replace/" $conf
+
+cat "$conf" | grep "$replace"

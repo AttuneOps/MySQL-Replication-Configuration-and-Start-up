@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "configuresourceserverserverid", 
+    "name": "Configure Source Server server-id", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

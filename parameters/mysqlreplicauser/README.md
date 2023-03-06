@@ -1,0 +1,1 @@
+MySQL Replica User account for replica nodes to connect to the source MySQL instance.

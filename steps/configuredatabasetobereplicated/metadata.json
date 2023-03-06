@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "configuredatabasetobereplicated", 
+    "name": "Configure Database to be Replicated", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

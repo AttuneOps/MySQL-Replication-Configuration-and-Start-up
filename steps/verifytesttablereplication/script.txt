@@ -1,0 +1,7 @@
+mysql -v <<EOM
+    USE {databaseToReplicate};
+    
+    SHOW TABLES;
+    
+    SELECT * FROM example_table;
+EOM

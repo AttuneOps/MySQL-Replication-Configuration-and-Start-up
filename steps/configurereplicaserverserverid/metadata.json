@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "configurereplicaserverserverid", 
+    "name": "Configure Replica Server server-id", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlreplicanode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

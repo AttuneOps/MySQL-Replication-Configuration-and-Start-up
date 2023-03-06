@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "configurebinarylogging", 
+    "name": "Configure Binary Logging", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlreplicanode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

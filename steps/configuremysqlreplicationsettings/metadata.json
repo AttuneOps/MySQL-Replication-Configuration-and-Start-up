@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "configuremysqlreplicationsettings", 
+    "name": "Configure MySQL Replication Settings", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

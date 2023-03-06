@@ -1,0 +1,30 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "configuringthesourcedatabase", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "configuresourceserverspublicipaddress"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "configuresourceserverserverid"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "enablebinarylogging"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "configuredatabasetobereplicated"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "restartmysqlservice"
+        }
+    ], 
+    "name": "Configuring the Source Database", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

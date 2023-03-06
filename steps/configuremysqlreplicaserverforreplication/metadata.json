@@ -1,0 +1,18 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "configuremysqlreplicaserverforreplication", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "configurethereplicadatabase"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "startreplication"
+        }
+    ], 
+    "name": "Configure MySQL Replica Server for Replication", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

@@ -1,0 +1,7 @@
+find="# server-id		= 1"
+replace="server-id		= {mysqlInstanceServerid}"
+conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
+
+sed -i "s/$find/$replace/" $conf
+
+cat "$conf" | grep "$replace"

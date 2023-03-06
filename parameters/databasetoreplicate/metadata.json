@@ -1,0 +1,6 @@
+{
+    "key": "databasetoreplicate", 
+    "name": "Database to Replicate", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

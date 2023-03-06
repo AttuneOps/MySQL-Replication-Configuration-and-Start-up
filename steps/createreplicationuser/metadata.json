@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "createreplicationuser", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "createmysqlreplicauserforeachreplicainstance"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "grantreplicationuserprivileges"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "flushprivileges"
+        }
+    ], 
+    "name": "Create Replication User", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

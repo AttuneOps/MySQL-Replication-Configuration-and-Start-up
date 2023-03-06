@@ -1,0 +1,6 @@
+{
+    "key": "mysqlsourcelogfile", 
+    "name": "MySQL Source Log File", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

@@ -1,0 +1,6 @@
+{
+    "key": "mysqlsourcelogposition", 
+    "name": "MySQL Source Log Position", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

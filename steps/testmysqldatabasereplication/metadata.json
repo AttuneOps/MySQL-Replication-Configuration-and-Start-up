@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "testmysqldatabasereplication", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "createtesttable"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "verifytesttablereplication"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "cleanuptesttable"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "verifycleanupreplication"
+        }
+    ], 
+    "name": "Test MySQL Database Replication", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

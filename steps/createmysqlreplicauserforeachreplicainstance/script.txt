@@ -1,0 +1,3 @@
+mysql -ev "CREATE USER '{mysqlReplicaUser.user}'@'{mysqlReplicaNode.ip}' IDENTIFIED WITH mysql_native_password BY '{mysqlReplicaUser.password}';"
+
+mysql -ev "SELECT host, user FROM mysql.user;" | grep {mysqlReplicaUser.user}

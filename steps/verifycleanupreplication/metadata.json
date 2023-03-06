@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "verifycleanupreplication", 
+    "name": "Verify Cleanup Replication", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlreplicanode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

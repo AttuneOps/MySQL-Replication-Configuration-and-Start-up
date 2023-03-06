@@ -1,0 +1,2 @@
+mysql -e "START REPLICA;"
+mysql -e "SHOW REPLICA STATUS\G;"
