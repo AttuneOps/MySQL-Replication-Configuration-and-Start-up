@@ -1,0 +1,10 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "bootstrapfirstmysqlnode", 
+    "name": "Bootstrap First MySQL Node", 
+    "osCredKey": "rootuser", 
+    "serverKey": "mysqlnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

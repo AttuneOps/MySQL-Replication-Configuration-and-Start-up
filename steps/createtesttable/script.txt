@@ -2,10 +2,12 @@ mysql -v <<EOM
     USE {databaseToReplicate};
     
     CREATE TABLE example_table (
-    example_column varchar(30)
+    id INT NOT NULL AUTO_INCREMENT,
+    example_column varchar(30),
+    PRIMARY KEY(id)
     );
     
-    INSERT INTO example_table VALUES
+    INSERT INTO example_table (example_column) VALUES
     ('This is the first row'),
     ('This is the second row'),
     ('This is the third row');

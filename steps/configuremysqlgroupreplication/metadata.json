@@ -1,0 +1,38 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "configuremysqlgroupreplication", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "setupgroupreplicationmysqlconfigurationfile"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "restartmysqlservice"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "configureopensshfirewallrules"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "configuregroupreplicationfirewall"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "configuregroupreplicationuseraccount"
+        }, 
+        {
+            "order": 300, 
+            "stepKey": "configuregroupreplicationrecoverychannel"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "installgroupreplicationplugin"
+        }
+    ], 
+    "name": "Configure MySQL Group Replication", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

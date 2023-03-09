@@ -1,0 +1,1 @@
+Generate a UUID that we can use to identify the MySQL group we will be creating. On the first member of the group, use the command `uuidgen` command to generate a valid UUID for the group.

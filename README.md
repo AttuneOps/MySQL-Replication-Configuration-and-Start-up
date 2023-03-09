@@ -98,10 +98,16 @@ This Project contains the following Blueprints.
 
 
 
+### Configure MySQL Group Replication
+
+
 ### Configure MySQL Replica Server for Replication
 
 
 ### Configure MySQL Source Server for Replication
+
+
+### Start MySQL Group Replication
 
 
 ### Test MySQL Database Replication
@@ -117,6 +123,8 @@ This Project contains the following Blueprints.
 | ---- | ---- | ---------------- | ------- |
 | Binary Log File | Text | `binarylogfile` | This defines the base name and location of MySQL's binary log file. Example: "/var/log/mysql/mysql-bin.log" |
 | Database to Replicate | Text | `databasetoreplicate` | The name of the database you want to replicate. |
+| MySQL Group Servers | Node List | `mysqlgroupservers` | None |
+| MySQL Group UUID | Text | `mysqlgroupuuid` | Generate a UUID that we can use to identify the MySQL group we will be creating. On the first member of the group, use the command `uuidgen` command to generate a valid UUID for the group. |
 | MySQL Instance server-id | Text | `mysqlinstanceserverid` | The server-id directive, which defines an identifier that MySQL uses internally to distinguish servers in a replication setup. Every server in a replication environment, including the source and all its replicas, must have their own unique server-id value. |
 | MySQL Node | Linux/Unix Node | `mysqlnode` | None |
 | MySQL Replica Node | Linux/Unix Node | `mysqlreplicanode` | The node replicating the source database. |

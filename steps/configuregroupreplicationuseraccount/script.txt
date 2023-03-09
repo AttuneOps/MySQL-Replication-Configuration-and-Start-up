@@ -1,0 +1,7 @@
+mysql -v <<EOM
+    SET SQL_LOG_BIN=0;
+    CREATE USER '{mysqlReplicaUser.user}'@'%' IDENTIFIED BY '{mysqlReplicaUser.password}' REQUIRE SSL;
+    GRANT REPLICATION SLAVE ON *.* TO '{mysqlReplicaUser.user}'@'%';
+    FLUSH PRIVILEGES;
+    SET SQL_LOG_BIN=1;
+EOM

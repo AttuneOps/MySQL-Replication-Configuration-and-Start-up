@@ -1,0 +1,4 @@
+mysql -v <<EOM
+    DROP DATABASE {databaseToReplicate};
+    SHOW DATABASES;
+EOM

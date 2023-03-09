@@ -1,0 +1,11 @@
+{
+    "enabled": true, 
+    "interpreter": 1, 
+    "key": "configurejoingrouponstartupallnodes", 
+    "name": "Configure Join Group on Start-up All Nodes", 
+    "osCredKey": "rootuser", 
+    "promptResponses": "Are you sure you want to continue connecting (yes/no/[fingerprint])?===yes\npassword:==={rootUser.password}", 
+    "serverKey": "mysqlnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

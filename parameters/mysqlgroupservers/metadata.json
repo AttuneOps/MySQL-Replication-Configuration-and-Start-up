@@ -1,0 +1,6 @@
+{
+    "key": "mysqlgroupservers", 
+    "name": "MySQL Group Servers", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.ServerList"
+}

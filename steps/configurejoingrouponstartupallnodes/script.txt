@@ -1,0 +1,23 @@
+find="loose-group_replication_start_on_boot = OFF"
+replace="loose-group_replication_start_on_boot = ON"
+conf="/etc/mysql/my.cnf"
+
+echo "Configure start on boot for: {mysqlNode.ip}"
+sed -i "s/$find/$replace/" $conf
+cat "$conf" | grep "$replace"
+
+for node in $(echo {mysqlGroupServers.serverIps} | sed "s/,/ /g")
+do
+    if [ "{mysqlNode.ip}" != "$node" ]
+    then
+        echo "Configure start on boot for: $node"
+        ssh {rootUser.user}@$node 'bash -s' << EOF
+        find="loose-group_replication_start_on_boot = OFF"
+        replace="loose-group_replication_start_on_boot = ON"
+        conf="/etc/mysql/my.cnf"
+        
+        sed -i "s/$find/$replace/" $conf
+        cat "$conf" | grep "$replace"
+EOF
+fi
+done

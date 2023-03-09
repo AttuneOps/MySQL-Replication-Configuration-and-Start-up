@@ -1,0 +1,10 @@
+for node in $(echo {mysqlGroupServers.serverIps} | sed "s/,/ /g")
+do
+    if [ "{mysqlNode.ip}" != "$node" ]
+    then
+        echo "Create Rules for: $node"
+        ufw allow from $node to any port 3306
+        ufw allow from $node to any port 33061
+    fi
+done
+ufw status

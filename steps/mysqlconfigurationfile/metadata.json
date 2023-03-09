@@ -1,0 +1,9 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": false, 
+    "key": "mysqlconfigurationfile", 
+    "links": [], 
+    "name": "MySQL Configuration File", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

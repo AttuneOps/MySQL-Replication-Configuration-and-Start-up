@@ -1,0 +1,13 @@
+for node in $(echo {mysqlGroupServers.serverIps} | sed "s/,/ /g")
+do
+    echo "Start remaining node: $node"
+    ssh {rootUser.user}@$node 'bash -s' <<<'EOF'
+        find="loose-group_replication_start_on_boot = OFF"
+        replace="loose-group_replication_start_on_boot = ON"
+        conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
+        
+        sed -i "s/$find/$replace/" $conf
+        
+        cat "$conf" | grep "$replace"
+EOF
+done

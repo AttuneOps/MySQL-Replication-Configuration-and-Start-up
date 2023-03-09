@@ -5,6 +5,10 @@
     "key": "testmysqldatabasereplication", 
     "links": [
         {
+            "order": 0, 
+            "stepKey": "createtestdatabase"
+        }, 
+        {
             "order": 50, 
             "stepKey": "createtesttable"
         }, 
@@ -19,6 +23,10 @@
         {
             "order": 200, 
             "stepKey": "verifycleanupreplication"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "droptestdatabase"
         }
     ], 
     "name": "Test MySQL Database Replication", 

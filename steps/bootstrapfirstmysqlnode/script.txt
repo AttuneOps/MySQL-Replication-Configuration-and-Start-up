@@ -1,0 +1,7 @@
+mysql -v <<EOM
+    SET GLOBAL group_replication_bootstrap_group=ON;
+    STOP GROUP_REPLICATION;
+    START GROUP_REPLICATION;
+    SET GLOBAL group_replication_bootstrap_group=OFF;
+    SELECT * FROM performance_schema.replication_group_members;
+EOM

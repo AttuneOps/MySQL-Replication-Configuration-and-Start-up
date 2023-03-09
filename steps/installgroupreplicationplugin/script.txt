@@ -1,0 +1,4 @@
+mysql -v <<EOM
+    INSTALL PLUGIN group_replication SONAME 'group_replication.so';
+    SHOW PLUGINS;
+EOM

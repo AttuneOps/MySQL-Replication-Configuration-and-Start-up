@@ -1,0 +1,11 @@
+for node in $(echo {mysqlGroupServers.serverIps} | sed "s/,/ /g")
+do
+    if [ "{mysqlNode.ip}" != "$node" ]
+    then
+        echo "Start remaining node: $node"
+        ssh {rootUser.user}@$node mysql -v <<EOM 
+        START GROUP_REPLICATION;
+        SELECT * FROM performance_schema.replication_group_members;
+EOM
+fi
+done

@@ -1,0 +1,60 @@
+conf="/etc/mysql/my.cnf"
+replicationPort=33061
+groupSeeds=""
+for node in $(echo {mysqlGroupServers.serverIps} | sed "s/,/ /g")
+do
+    groupSeeds="$groupSeeds$node:$replicationPort,"
+done
+if [ ${groupSeeds: -1} == "," ]
+then
+    groupSeeds=${groupSeeds::-1}
+fi
+
+# backup config or restore if backup exists.
+if [ ! -f $conf.bak ]
+then
+    echo "Backing up $conf"
+    cp $conf $conf.bak
+else
+    echo "Restoring backup of $conf"
+    cp $conf.bak $conf
+fi
+
+tee -a "$conf" <<EOF
+    
+    [mysqld]
+    
+    # General replication settings
+    disabled_storage_engines="MyISAM,BLACKHOLE,FEDERATED,ARCHIVE,MEMORY"
+    gtid_mode = ON
+    enforce_gtid_consistency = ON
+    master_info_repository = TABLE
+    relay_log_info_repository = TABLE
+    binlog_checksum = NONE
+    log_slave_updates = ON
+    log_bin = binlog
+    binlog_format = ROW
+    transaction_write_set_extraction = XXHASH64
+    loose-group_replication_bootstrap_group = OFF
+    loose-group_replication_start_on_boot = OFF
+    loose-group_replication_ssl_mode = REQUIRED
+    loose-group_replication_recovery_use_ssl = 1
+    
+    # Shared replication group configuration
+    loose-group_replication_group_name = "{mysqlGroupUuid}"
+    loose-group_replication_ip_whitelist = "{mysqlGroupServers.serverIps}"
+    loose-group_replication_group_seeds = "$groupSeeds"
+    
+    # Single or Multi-primary mode? Uncomment these two lines
+    # for multi-primary mode, where any host can accept writes
+    loose-group_replication_single_primary_mode = OFF
+    loose-group_replication_enforce_update_everywhere_checks = ON
+    
+    # Host specific replication configuration
+    server_id = {mysqlInstanceServerid}
+    bind-address = "{mysqlNode.ip}"
+    report_host = "{mysqlNode.ip}"
+    loose-group_replication_local_address = "{mysqlNode.ip}:$replicationPort"
+EOF
+
+rm -rfv /var/lib/mysql/auto.cnf
