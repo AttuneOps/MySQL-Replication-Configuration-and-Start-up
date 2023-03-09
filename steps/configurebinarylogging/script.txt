@@ -1,5 +1,0 @@
-find="# log_bin                       = /var/log/mysql/mysql-bin.log"
-replace="log_bin                       = {binaryLogFile}"
-conf="/etc/mysql/mysql.conf.d/mysqld.cnf"
-
-sed "s/$find/$replace/" $conf
