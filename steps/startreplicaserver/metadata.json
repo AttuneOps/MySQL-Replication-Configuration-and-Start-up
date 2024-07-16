@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "0f2040dc-339a-4607-b1c3-26885d4a6d47", 
     "interpreter": 1, 
     "key": "startreplicaserver", 
     "name": "Start Replica Server", 

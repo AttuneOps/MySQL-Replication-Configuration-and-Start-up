@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "7e7f9575-5e53-44fa-9195-fae215983b78", 
     "isBlueprint": false, 
     "key": "configurethereplicadatabase", 
     "links": [

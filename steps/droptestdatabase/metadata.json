@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "071fe837-bce2-48d2-8def-6de7ce82a3ff", 
     "interpreter": 1, 
     "key": "droptestdatabase", 
     "name": "Drop Test Database", 

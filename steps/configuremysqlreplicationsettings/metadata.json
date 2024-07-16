@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "729c4800-2aeb-4ed0-9122-f1489c895eb1", 
     "interpreter": 1, 
     "key": "configuremysqlreplicationsettings", 
     "name": "Configure MySQL Replication Settings", 

@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "ff24b1b3-2545-45ca-88ae-a917eca6ffaa", 
     "key": "mysqlsourcenode", 
     "name": "MySQL Source Node", 
     "showInPlan": true, 

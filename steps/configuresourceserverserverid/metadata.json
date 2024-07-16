@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d0da395b-0e9f-4cb6-afaf-86077a8bb40d", 
     "interpreter": 1, 
     "key": "configuresourceserverserverid", 
     "name": "Configure Source Server server-id", 

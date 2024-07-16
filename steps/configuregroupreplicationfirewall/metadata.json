@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "0d064744-e4de-497a-84d8-64ba5052e5a1", 
     "interpreter": 1, 
     "key": "configuregroupreplicationfirewall", 
     "name": "Configure Group Replication Firewall", 

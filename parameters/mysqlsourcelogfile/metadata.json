@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "6f8d96d6-6a01-413c-b616-edd2533e3f62", 
     "key": "mysqlsourcelogfile", 
     "name": "MySQL Source Log File", 
     "showInPlan": true, 

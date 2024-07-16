@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "5a2c761d-7dea-44c3-a50d-456134956df9", 
     "interpreter": 1, 
     "key": "configuresourceserverspublicipaddress", 
     "name": "Configure Source Server\u2019s Public IP Address", 

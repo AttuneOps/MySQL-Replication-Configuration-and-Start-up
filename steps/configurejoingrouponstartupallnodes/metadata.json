@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "0923a997-90a0-45c0-8470-580ec7bb2178", 
     "interpreter": 1, 
     "key": "configurejoingrouponstartupallnodes", 
     "name": "Configure Join Group on Start-up All Nodes", 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "1a7f59bc-c97a-4741-af17-c3b0c2228ed9", 
     "interpreter": 1, 
     "key": "startupremainingmysqlnodes", 
     "name": "Start-up Remaining MySQL Nodes", 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "cec04b62-5b61-44ca-8497-0a7bc4aa81c7", 
     "interpreter": 1, 
     "key": "createtestdatabase", 
     "name": "Create Test Database", 

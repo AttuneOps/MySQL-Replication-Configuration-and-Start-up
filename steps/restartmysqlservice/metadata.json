@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "610671bb-84ac-474c-8b01-c8c8a5603747", 
     "interpreter": 1, 
     "key": "restartmysqlservice", 
     "name": "Restart MySQL Service", 

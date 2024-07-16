@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "d6cd98de-75a7-4e53-bc90-daf7b51ace15", 
     "key": "mysqlinstanceserverid", 
     "name": "MySQL Instance server-id", 
     "showInPlan": true, 

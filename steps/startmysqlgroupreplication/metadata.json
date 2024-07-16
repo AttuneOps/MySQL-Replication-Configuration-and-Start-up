@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "3810d43e-8a90-4b70-b8b9-fa03a4470e63", 
     "isBlueprint": true, 
     "key": "startmysqlgroupreplication", 
     "links": [

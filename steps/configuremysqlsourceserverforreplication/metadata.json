@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "8223c311-d6b6-4f03-83ff-17966636d288", 
     "isBlueprint": true, 
     "key": "configuremysqlsourceserverforreplication", 
     "links": [

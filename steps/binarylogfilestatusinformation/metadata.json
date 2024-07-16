@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "141d90bd-1d29-4556-87a1-ad51efac4a27", 
     "interpreter": 1, 
     "key": "binarylogfilestatusinformation", 
     "name": "Binary Log File Status Information", 

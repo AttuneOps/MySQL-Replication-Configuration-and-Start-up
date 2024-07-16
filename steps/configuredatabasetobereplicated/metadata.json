@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "cf43f91d-4363-4749-88b1-6aaeb3d69869", 
     "interpreter": 1, 
     "key": "configuredatabasetobereplicated", 
     "name": "Configure Database to be Replicated", 

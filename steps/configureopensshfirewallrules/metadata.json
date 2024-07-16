@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "730ae326-ecfe-44a9-b993-5d655cf80eb9", 
     "interpreter": 1, 
     "key": "configureopensshfirewallrules", 
     "name": "Configure OpenSSH Firewall Rules", 

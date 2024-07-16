@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "8de109b4-3309-460f-a97d-b6a56d2c4b99", 
     "isBlueprint": false, 
     "key": "retrievebinarylogcoordinates", 
     "links": [

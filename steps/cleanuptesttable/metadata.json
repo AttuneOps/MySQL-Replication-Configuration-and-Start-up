@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ebad23e5-9d3f-4040-ac0a-38cb9fb49e0e", 
     "interpreter": 1, 
     "key": "cleanuptesttable", 
     "name": "Cleanup Test Table", 

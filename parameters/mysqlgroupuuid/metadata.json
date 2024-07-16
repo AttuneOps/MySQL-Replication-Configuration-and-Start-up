@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "eb1c46a9-3d55-4701-9ce1-a05bbd42e8e6", 
     "key": "mysqlgroupuuid", 
     "name": "MySQL Group UUID", 
     "showInPlan": true, 

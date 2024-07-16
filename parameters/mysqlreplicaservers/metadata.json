@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "18d5f929-bbb8-47a2-bc3b-69db028385d6", 
     "key": "mysqlreplicaservers", 
     "name": "MySQL Replica Servers", 
     "showInPlan": true, 

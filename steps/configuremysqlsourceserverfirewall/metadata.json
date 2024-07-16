@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "11f9a795-5cbe-4114-8e14-36acc5c5770c", 
     "isBlueprint": false, 
     "key": "configuremysqlsourceserverfirewall", 
     "links": [

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "08ce903f-0b80-4cf6-91c9-7d52889c9f44", 
     "interpreter": 1, 
     "key": "verifytesttablereplication", 
     "name": "Verify Test Table Replication", 

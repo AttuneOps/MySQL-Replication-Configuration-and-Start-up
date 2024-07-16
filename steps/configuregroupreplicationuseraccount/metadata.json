@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "eb98b8f2-5f39-4708-96ac-cc5599da4b17", 
     "interpreter": 1, 
     "key": "configuregroupreplicationuseraccount", 
     "name": "Configure Group Replication User Account", 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ca68bdea-6dbd-4f33-8035-584bd118f954", 
     "interpreter": 1, 
     "key": "verifycleanupreplication", 
     "name": "Verify Cleanup Replication", 

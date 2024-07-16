@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "185a680a-4353-4e3d-a394-0902586d4310", 
     "key": "mysqlsourcelogposition", 
     "name": "MySQL Source Log Position", 
     "showInPlan": true, 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6dd7ac65-c427-467a-aac0-3514826f0913", 
     "interpreter": 1, 
     "key": "bootstrapfirstmysqlnode", 
     "name": "Bootstrap First MySQL Node", 

@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "8d7dab53-a0e8-4cb5-80ba-9dce80b56391", 
     "key": "databasetoreplicate", 
     "name": "Database to Replicate", 
     "showInPlan": true, 

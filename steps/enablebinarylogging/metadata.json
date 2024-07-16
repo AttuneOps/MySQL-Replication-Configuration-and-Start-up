@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "93c6b6bb-b549-4392-bcfb-9e9314fadbcb", 
     "interpreter": 1, 
     "key": "enablebinarylogging", 
     "name": "Enable Binary Logging", 

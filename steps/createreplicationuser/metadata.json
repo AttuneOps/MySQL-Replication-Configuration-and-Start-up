@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "dfebc92e-46c8-41ee-9967-4b5fc554f27e", 
     "isBlueprint": false, 
     "key": "createreplicationuser", 
     "links": [

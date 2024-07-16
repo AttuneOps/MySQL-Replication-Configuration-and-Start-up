@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "15b9913c-6e23-4593-9d3b-80ac0c6c80b0", 
     "interpreter": 1, 
     "key": "configurerelaylogging", 
     "name": "Configure Relay Logging", 

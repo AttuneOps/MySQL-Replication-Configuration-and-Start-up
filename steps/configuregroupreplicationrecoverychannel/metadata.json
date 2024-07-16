@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "c0caa73b-2c54-4499-9301-659453069210", 
     "interpreter": 1, 
     "key": "configuregroupreplicationrecoverychannel", 
     "name": "Configure Group Replication Recovery Channel", 

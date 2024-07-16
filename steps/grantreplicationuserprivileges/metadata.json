@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "e221ec31-9249-4ec4-a15d-3d0ffc2080ee", 
     "interpreter": 1, 
     "key": "grantreplicationuserprivileges", 
     "name": "Grant Replication User Privileges", 

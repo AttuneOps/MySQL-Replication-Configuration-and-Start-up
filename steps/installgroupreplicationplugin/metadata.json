@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "ac43c68a-c7c7-4360-8e4e-c9cdc915fd66", 
     "interpreter": 1, 
     "key": "installgroupreplicationplugin", 
     "name": "Install Group Replication Plugin", 

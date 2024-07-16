@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "879bcc4c-9843-4c24-8316-2ba91ff80094", 
     "interpreter": 1, 
     "key": "resetmysqlserveruuid", 
     "name": "Reset MySQL server-uuid", 

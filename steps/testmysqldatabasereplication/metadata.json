@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "c46a0433-031c-4d8e-a80c-9fb9c93fb4b5", 
     "isBlueprint": true, 
     "key": "testmysqldatabasereplication", 
     "links": [

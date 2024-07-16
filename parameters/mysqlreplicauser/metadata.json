@@ -1,4 +1,5 @@
 {
+    "externalUuid4": "6f273d13-503f-467c-95cf-34a6170372d6", 
     "key": "mysqlreplicauser", 
     "name": "MySQL Replica User", 
     "showInPlan": true, 

@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "d817ca53-2eec-4c40-a99a-25ff8fb50796", 
     "interpreter": 1, 
     "key": "createtesttable", 
     "name": "Create Test Table", 

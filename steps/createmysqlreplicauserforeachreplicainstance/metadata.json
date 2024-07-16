@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "a7a80063-25f8-464d-a244-5ce453ad2ce4", 
     "interpreter": 1, 
     "key": "createmysqlreplicauserforeachreplicainstance", 
     "name": "Create MySQL Replica User for each Replica Instance", 

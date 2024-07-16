@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "6075ec43-3c9c-4321-ac78-a1afcfa60364", 
     "interpreter": 1, 
     "key": "setupgroupreplicationmysqlconfigurationfile", 
     "name": "Set Up Group Replication MySQL Configuration File", 
